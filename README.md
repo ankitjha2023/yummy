@@ -44,6 +44,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, feel free to contact the project maintainer at mealwebsite@example.com.
+If you have any questions, suggestions, or feedback, feel free to contact the project maintainer ajha45075@gmail.com.
 
 Thank you for visiting our Meal Website! Enjoy exploring delicious recipes!
