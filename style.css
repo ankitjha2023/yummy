@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.hero{
+    /* height: 80vh; */
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .row{
+    flex-wrap: wrap-reverse;
+
+}
+#menu{
+    background-color: whitesmoke;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight:bold;
+}
+.nav-link{
+    font-size: 18px;
+    color: lightslategray;
+
+    margin: 0px 10px;
+}
+.about{
+    padding: 100px 0px;
+    background-color: lightslategray;
+    color:whitesmoke;
+    letter-spacing: 1px;
+}
+.about-row{
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+    align-items: center;
+    justify-content: center;
+}
+.col-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+}
+
+.col-text p{
+    padding-right: 60px;
+}
+
+
+.col-image{
+    
+    width: 45%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.col-image .img-container{
+    width: 50%;
+}
+.col-image img{
+   border-radius: 5px;
+   width: 100%;
+}
+#about hr, .chef hr{
+    width: 80px;
+    margin-bottom: 50px;
+}
+#service .card{
+    width: 25rem;
+    border: none;
+    text-align: center;
+    border: 2px solid yellow;
+    margin: 10px;
+}
+#service .card-img-top{
+    height: 300px;
+    width: 100%;
+}
+
+footer .col-md-3{
+    display: flex;
+   
+    gap: 20px;
+}
+footer .col-md-3 i{
+    font-size: 20px;
+ }
+
+footer .col-md-3 b{
+   letter-spacing: 1px;
+}
+
+
+#menu .col-md-4{
+    text-align: center;
+    margin-top: 20px;
+}
+#menu .col-md-4 img{
+    width: 150px;
+}
+#menu .col-md-4 h5{
+    margin-top: 10px;
+    
+}
+.chef{
+     background-color: lightslategray;
+     color: white;
+}
+
+
+
+
+.carousel-item img{
+    height: 70vh;
+    object-fit: cover;
+    
+}
+
+
+#gallery{
+
+    background-color: whitesmoke;
+}
+
+
+#book{
+    background-color: lightslategray;
+}
+.col-md-8{
+    margin-top: 20px;
+}
+
+
+#contact .col-md-5{
+    padding: 20px;
+    gap: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   
+    background-color: whitesmoke;
+}
+#contact i{
+    font-size: 25px;
+    background-color: rgb(216, 65, 65);
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+
+#contact h3{
+    color: lightslategray;
+    font-weight: bold;
+    font-size: 30px;
+}
+@media (max-width:768px) {
+
+
+    .hero p{
+        padding: 0px 10px;
+    }
+    .col-text{
+        
+        width: 100%;
+        padding: 20px 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .col-image{
+        width: 100%;
+    }
+  
+    .chef .col-md-6{
+        text-align: center;
+        
+    }
+    hr{
+        margin: auto;
+    }
+    .col-text{
+        margin-top: 20px;
+    }
+    .col-text p{
+        margin-top: 10px;
+        padding-right: 0px;
+    }
+
+    #heading{
+        padding: 60px 0px;
+        text-align: center;
+
+    }
+    #heading br{
+        display: none;
+    }
+    #heading button{
+        margin: auto;
+    
+    
+    }
+   
+    #contact h3{
+        font-size: 20px;
+    }
+    #contact .row{
+        padding: 0px 10px;
+    }
+    footer .col-sm-6{
+        display: flex;
+        
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+    #social{
+        
+        margin-bottom: 10px;
+    }
+    #social  .d-flex{
+        margin-top: -13px;
+    }
+}
+
+.form-control:focus {border-color:brown;
+    -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    footer{
+        background-color: #2d3436;
+        color: whitesmoke;
+    }
+
+    #social{
+        flex-direction: column;
+    }
+ 
+ 
